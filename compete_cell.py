@@ -1,7 +1,12 @@
 #active cells and inactive cells.
 #do refer this link if you have any doubts in question
 #https://www.geeksforgeeks.org/active-inactive-cells-k-days/
+#ip: [ 1, 0, 0, 0, 1, 0, 1]  (cells of each people)
+#    1    (no_of_days)
+#    1 - active
+#    0 - inactive
 
+#op: [ 0, 1, 0, 1, 0, 0, 0] (after 1 day)
 
 arr = list(map(int, input().split())) # getting array from user
 n = len(arr)
